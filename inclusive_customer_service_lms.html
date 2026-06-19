@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inclusive Customer Service</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    .wrap { padding: 2.5rem 2rem 3rem; background: #ffffff; }
+
+    .hero { margin-bottom: 2.5rem; }
+    .hero-title { font-size: 32px; font-weight: 600; color: #1a1a1a; line-height: 1.15; margin-bottom: 1rem; }
+    .hero-intro { font-size: 15px; color: #1a1a1a; line-height: 1.65; max-width: 640px; }
+
+    .module { border-radius: 12px; margin-bottom: 12px; overflow: hidden; border: 0.5px solid #e8e5e0; }
+
+    .module-header { padding: 1.25rem 1.5rem; }
+    .mod-1 .module-header { background: #FF621A; }
+    .mod-2 .module-header { background: #64A095; }
+    .mod-3 .module-header { background: #82A3B0; }
+
+    .mod-badge { font-size: 15px; font-weight: 700; color: #1a1a1a; margin-bottom: 4px; }
+    .mod-title { font-size: 17px; font-weight: 600; color: #1a1a1a; line-height: 1.25; }
+
+    .module-body { background: #ffffff; padding: 1.25rem 1.5rem; }
+
+    .topic-list { list-style: none; }
+    .topic-item { display: flex; align-items: flex-start; gap: 10px; padding: 7px 0; border-bottom: 0.5px solid #f0ede8; font-size: 14px; color: #1a1a1a; line-height: 1.4; }
+    .topic-item:last-child { border-bottom: none; padding-bottom: 0; }
+
+    .topic-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; margin-top: 5px; }
+    .mod-1 .topic-dot { background: #FF621A; }
+    .mod-2 .topic-dot { background: #64A095; }
+    .mod-3 .topic-dot { background: #82A3B0; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <h1 class="hero-title">Course Structure</h1>
+      <p class="hero-intro">The Inclusive Customer Service course provides a contemporary understanding of disability, accessibility, and inclusion, and addresses barriers for people with disability in everyday life. The course reinforces learnings through the use of supporting videos and quizzes.</p>
+    </div>
+
+    <div class="module mod-1">
+      <div class="module-header">
+        <div class="mod-badge">Module 1</div>
+        <div class="mod-title">Understanding disability, accessibility, and inclusion</div>
+      </div>
+      <div class="module-body">
+        <ul class="topic-list">
+          <li class="topic-item"><span class="topic-dot"></span>Understanding disability</li>
+          <li class="topic-item"><span class="topic-dot"></span>Models of disability</li>
+          <li class="topic-item"><span class="topic-dot"></span>Understanding accessibility</li>
+          <li class="topic-item"><span class="topic-dot"></span>Inclusion in practice</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="module mod-2">
+      <div class="module-header">
+        <div class="mod-badge">Module 2</div>
+        <div class="mod-title">Inclusive communication</div>
+      </div>
+      <div class="module-body">
+        <ul class="topic-list">
+          <li class="topic-item"><span class="topic-dot"></span>Why inclusive language matters</li>
+          <li class="topic-item"><span class="topic-dot"></span>Tips for inclusive communication</li>
+          <li class="topic-item"><span class="topic-dot"></span>Alternate communication methods</li>
+          <li class="topic-item"><span class="topic-dot"></span>Inclusive conversation checklist</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="module mod-3">
+      <div class="module-header">
+        <div class="mod-badge">Module 3</div>
+        <div class="mod-title">Inclusive customer service</div>
+      </div>
+      <div class="module-body">
+        <ul class="topic-list">
+          <li class="topic-item"><span class="topic-dot"></span>Understanding different access requirements</li>
+          <li class="topic-item"><span class="topic-dot"></span>Tips for communicating with customers with different disability types (e.g. deaf or hard of hearing, blind or low vision, neurodiversity, physical disability and low mobility)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
